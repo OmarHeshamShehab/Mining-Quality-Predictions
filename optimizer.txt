@@ -1,0 +1,13 @@
+
+Let's break down the parameters:
+
+learning_rate: This is how much the model should adjust its weights during training. A higher learning rate means bigger adjustments.
+
+beta_1 and beta_2: These are parameters that control the decay rates of two moving averages. They help Adam adapt to the geometry of the loss function.
+
+epsilon: This is a small number added to prevent division by zero and to ensure numerical stability in the calculations.
+
+amsgrad: This is a boolean (True/False) parameter that determines whether to use the "AMSGrad" variant of the Adam optimizer. If set to True, it modifies the update rule for the moving average of squared gradients.
+
+So, in simple terms, this code is configuring the Adam optimizer with specific settings for how fast the model should learn (learning_rate), how it should adapt to the data
+ (beta_1 and beta_2), and some numerical stability considerations (epsilon and amsgrad).
