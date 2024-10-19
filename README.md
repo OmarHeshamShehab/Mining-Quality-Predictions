@@ -9,7 +9,6 @@
 6. [Usage](#usage)
 7. [Contributing](#contributing)
 
-
 
 Applying the following algorithms on this dataset:
 
